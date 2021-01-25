@@ -36,3 +36,12 @@ with values being:
   Adj cost: number,
   }
   ```
+
+### Personal Data Used
+
+This code will use your stock symbols within your csv to pull the historical data for each symbol. No personal information is shared with any other platform and all transaction history is analyzed within the notebook.
+
+## How it Works
+
+This code takes a list of stock symbols within a portfolio and creates a dataframe of historical returns for each stock as a daily snapshot. The dataframe is adjusted using the FIFO method and subtracts sold share amounts from the first bought share amounts to return a realistic adjusted cost per share on your investment. It also contains columns which show what your returns would have been had you spent an equivalent amount of money on the SPY stock, a strong indicator of the S&P 500's performance. Finally, plotly express uses the dataframe to compare your returns to the hypothetical S&P returns to help visualize which stocks are outperforming or underperforming the S&P 500. There is additional functionality for the program which allows the user to set a specific time frame of transaction history to compare to the benchmark rather than their complete history.
+
