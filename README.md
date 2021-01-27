@@ -1,6 +1,6 @@
 # Stock Portfolio Analysis
 
-This repository contains the full code for the Stock Portfolio Analysis Jupyter Notebook based on Kevin Boller's "Python for Finance: Stock Portfolio Analyses" post on Medium (linked below). This altered version allows for a user to submit their portfolio transaction history and compare their performance to a S&P 500 ETF Benchmark (SPY).
+This repository contains the full code for the Stock Portfolio Analysis Jupyter Notebook based on Kevin Boller's "Python for Finance: Stock Portfolio Analyses" post on Medium (linked below). This altered version allows for a user to submit their portfolio transaction history and compare their performance to a S&P 500 ETF Benchmark (SPY) for a user-defined time frame.
 
 Kevin Boller's Original Post: https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054
 
